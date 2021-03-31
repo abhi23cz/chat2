@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
 const http = require('http').createServer(app)
-
-http.listen(80, () =>{
-  console.log("Listening on port 80")
+const port = process.env.PORT || 80
+http.listen(port, () =>{
+  console.log("Server Started")
 })
 
 
