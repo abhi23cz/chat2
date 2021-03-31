@@ -1,0 +1,108 @@
+.body{
+  background: url(./bg_2.jpg);
+
+}
+.amazing.left{
+  padding-top: 10px;
+  background-color: violet;
+  margin: 23px 32px;
+  padding: 1px;
+  width: 24%;
+  font-weight: bolder;
+  font-size:18px;
+  border-radius: 5px;
+  float: left;
+  clear: both;
+
+}
+
+.amazing.right{
+  padding-top: 10px;
+  background-color: violet;
+  margin: 23px 32px;
+  padding: 1px;
+  width: 24%;
+  font-weight: bolder;
+  font-size:18px;
+  border-radius: 5px;
+  float: right;
+  clear: both;
+}
+
+.front{
+  margin: auto;
+  display: flex;
+  flex-direction:row;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:white;
+
+  text-align:center;
+  justify-content:center;
+
+  width:50%;
+
+}
+
+.front h1{
+  padding: 10px 10px;
+}
+
+
+.container{
+  max-width: 65%;
+  margin: auto;
+  /* background-color:white; */
+  border:2px solid white;
+  overflow-y:auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height:80vh;
+}
+
+.message{
+  padding-top: 10px;
+  background-color: violet;
+  padding: 1px;
+  margin: 26px 2px;
+  width: 24%;
+  border-radius: 5px;
+
+}
+
+.left{
+  float: left;
+  clear: both;
+}
+
+
+.right{
+  float: right;
+  clear: both;
+}
+
+.send{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+}
+#send_form{
+  display: block;
+  text-align: center;
+
+}
+#message_inp{
+    margin-left: 16px;
+    width:65%;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#btn{
+  border: 1px solid black;
+  border-radius:5px;
+  cursor: pointer;
+  padding:10px 5px;
+}
