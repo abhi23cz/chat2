@@ -29,6 +29,7 @@ function send_msg(message){
   append_msg(msg, 'right')
   socket.emit('message', msg)
   textarea.value = ""
+  scroll()
 }
 
 function user_joined(name){
@@ -59,4 +60,11 @@ socket.on('user-joined' , (user_name) =>{
 
 socket.on('message', (msg) =>{
   append_msg(msg, 'left')
+  scroll()
 })
+
+
+function scroll(){
+  container.scrollTop = container.scrollHeight
+
+}
